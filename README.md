@@ -1,3 +1,3 @@
 # Concerned
 
-Gem for Pure Ruby Objects that encapsulate specific behavior
+Gem for Pure Ruby Objects to encapsulate specific behavior

@@ -3,9 +3,9 @@
 Gem::Specification.new do |s|
   s.name = "concerned"
   s.version = "0.1.0"
-  s.summary = "Gem for Pure Ruby Objects that encapsulate specific behavior"
+  s.summary = "Gem for Pure Ruby Objects to encapsulate specific behavior"
   s.license = "MIT"
-  s.description = "Gem for Pure Ruby Objects that encapsulate specific behavior"
+  s.description = "Gem for Pure Ruby Objects to encapsulate specific behavior"
   s.authors = ["Leonardo Mateo", "Lautaro Orazi"]
   s.email = ["kandalf@threefunkymonkeys.com", "taro@threefunkymonkeys.com"]
   s.homepage = "https://github.com/threefunkymonkeys/concerned"
