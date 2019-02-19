@@ -1,4 +1,4 @@
 require 'minitest/spec'
 require 'minitest/autorun'
 require 'pp'
-require_relative '../lib/concerned'
+require_relative '../lib/scoped-concerns'

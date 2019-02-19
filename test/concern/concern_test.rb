@@ -1,10 +1,10 @@
 require_relative '../test_helper'
 
 class MyConcern
-  include Concerned::Concern
+  include Scoped::Concern
 end
 
-describe Concerned::Concern do
+describe Scoped::Concern do
   it "should add class run method" do
     assert MyConcern.respond_to?(:run)
   end
@@ -22,7 +22,7 @@ describe Concerned::Concern do
 
     response = concern.success(result)
 
-    assert response.is_a?(Concerned::Response)
+    assert response.is_a?(Scoped::Response)
     assert response.errors.empty?
 
     assert_equal result, response.result
