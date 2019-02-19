@@ -1,4 +1,4 @@
-module Concerned
+module Scoped
   class InvalidType < RuntimeError;end
 
   class Response
