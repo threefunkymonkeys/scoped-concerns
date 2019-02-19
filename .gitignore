@@ -1,2 +1,4 @@
 tags
 .ruby-version
+.ruby-gemset
+.gemsetrc
