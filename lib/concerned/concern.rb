@@ -1,4 +1,4 @@
-module Concerned
+module Scoped
   module Concern
     def self.included(base)
       base.send :include, InstanceMethods
